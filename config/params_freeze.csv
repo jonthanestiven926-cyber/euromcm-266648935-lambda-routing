@@ -1,0 +1,38 @@
+﻿parameter,value,unit,block_scope,note
+seeds_final,2026101901:2026101908,count,E1/E2/E3,8 new paired seeds frozen before results
+seed_dev,20261018,count,dev,development only distinct from final seeds
+segment_seconds,1800,s,E1/E2/E3,interval size
+carbon_delta_h,1,h,E1/E2/E3,lag=3600s publication latency
+carbon_h,2,h,E1/E2/E3,forecast horizon hours legacy
+p_interactive,0.5,ratio,all,int/bat split
+q_target,0.7,[0,1],all,constructed quality target
+d_int,10,s,all,interactive deadline a+d_int
+tau_light,1.0,s,E1/E2/E3,service time light
+tau_strong,3.0,s,E1/E2/E3,service time strong
+tau_verify,0.1,s,E1/E2/E3,verification
+rho_light,1.0,relative,all,resource light=1
+rho_strong,4.0,relative,all,resource strong
+rho_verify,0.1,relative,all,resource verify
+E1.T_arr,7200,s,E1,
+E1.W_batch,1800,s,E1,batch deadline d=a+1800
+E1.lambda,0.1,1/s,E1,
+E1.C,4,machines,E1,
+E1.B_per_request,1.5,relative,E1,budget scales with N
+E1.offsets,0;96;192;288,interval,E1,firstIndex=1345+offset
+E2A.T_arr,900,s,E2A,
+E2A.W_batch,300,s,E2A,batch deadline d=a+300
+E2A.lambda,0.1;1.0,1/s,E2A,load sweep
+E2A.C,1;4,machines,E2A,capacity sweep
+E2A.B_abs,TBD_tight;TBD_high,relative,E2A,B_tight=0.5*C_full(C=1) B_high=1.2*C_full(C=4) UNIFIED across C (fixed-budget sweep capacity; NOT 1.5*N exhaustion)
+E2B.lambda,0.1,1/s,E2B,
+E2B.C,4,machines,E2B,
+E2B.demand_M,1;2,multiplier,E2B,Bernoulli(0.5) fixed-mark thinning preserves Poisson (d1=Poisson(lambda) subset of d2=Poisson(2lambda))
+E2B.thinning,bernoulli0.5_fixed_mark,prob,E2B,N1 random per seed (mean 90); B_d2_fixed=1.5*N1(seed) recorded
+E3.T_arr,7200,s,E3,
+E3.W_batch,1800,s,E3,deadline FIXED d=a+1800 NOT a wait axis
+E3.max_defer_s,0;300;900;1800,s,E3,independent wait upper limit 0=immediate
+E3.rho_route,0;0.02;0.1;0.5,relative,E3,tau_route=0 resource-only
+E3.bias,-40;0;40,gCO2/kWh,E3,known bias on causal seasonal predictor
+E3.carbon_sigma,0;10;40,gCO2/kWh,E3,controlled ideal noise on oracle_noise
+E3.C,4,machines,E3,
+E3.lambda,0.1,1/s,E3,

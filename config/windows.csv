@@ -1,0 +1,5 @@
+﻿window_id,offset,first_index,last_target,target_range,latest_at_issue0,description
+W1,0,1345,1353,1345..1353,1342,validation walk-forward window 1
+W2,96,1441,1449,1441..1449,1438,validation walk-forward window 2
+W3,192,1537,1545,1537..1545,1534,validation walk-forward window 3
+W4,288,1633,1641,1633..1641,1630,validation walk-forward window 4

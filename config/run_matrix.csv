@@ -1,0 +1,305 @@
+﻿run_id,block,case_id,seed,offset,first_index,strategy,carbon_sched,predictor,lambda,C,budget_mode,B_per_request,B_abs,T_arr,W_batch,d_int,lag_s,max_defer_s,rho_route,bias,carbon_sigma,demand_M,note
+R0001,E1,E1_w0_imm,2026101901,0,1345,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0002,E1,E1_w0_persist,2026101901,0,1345,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0003,E1,E1_w0_seasonal,2026101901,0,1345,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0004,E1,E1_w0_oracle,2026101901,0,1345,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0005,E1,E1_w0_imm,2026101902,0,1345,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0006,E1,E1_w0_persist,2026101902,0,1345,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0007,E1,E1_w0_seasonal,2026101902,0,1345,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0008,E1,E1_w0_oracle,2026101902,0,1345,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0009,E1,E1_w0_imm,2026101903,0,1345,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0010,E1,E1_w0_persist,2026101903,0,1345,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0011,E1,E1_w0_seasonal,2026101903,0,1345,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0012,E1,E1_w0_oracle,2026101903,0,1345,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0013,E1,E1_w0_imm,2026101904,0,1345,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0014,E1,E1_w0_persist,2026101904,0,1345,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0015,E1,E1_w0_seasonal,2026101904,0,1345,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0016,E1,E1_w0_oracle,2026101904,0,1345,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0017,E1,E1_w0_imm,2026101905,0,1345,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0018,E1,E1_w0_persist,2026101905,0,1345,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0019,E1,E1_w0_seasonal,2026101905,0,1345,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0020,E1,E1_w0_oracle,2026101905,0,1345,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0021,E1,E1_w0_imm,2026101906,0,1345,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0022,E1,E1_w0_persist,2026101906,0,1345,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0023,E1,E1_w0_seasonal,2026101906,0,1345,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0024,E1,E1_w0_oracle,2026101906,0,1345,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0025,E1,E1_w0_imm,2026101907,0,1345,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0026,E1,E1_w0_persist,2026101907,0,1345,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0027,E1,E1_w0_seasonal,2026101907,0,1345,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0028,E1,E1_w0_oracle,2026101907,0,1345,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0029,E1,E1_w0_imm,2026101908,0,1345,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0030,E1,E1_w0_persist,2026101908,0,1345,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0031,E1,E1_w0_seasonal,2026101908,0,1345,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0032,E1,E1_w0_oracle,2026101908,0,1345,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0033,E1,E1_w96_imm,2026101901,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0034,E1,E1_w96_persist,2026101901,96,1441,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0035,E1,E1_w96_seasonal,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0036,E1,E1_w96_oracle,2026101901,96,1441,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0037,E1,E1_w96_imm,2026101902,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0038,E1,E1_w96_persist,2026101902,96,1441,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0039,E1,E1_w96_seasonal,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0040,E1,E1_w96_oracle,2026101902,96,1441,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0041,E1,E1_w96_imm,2026101903,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0042,E1,E1_w96_persist,2026101903,96,1441,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0043,E1,E1_w96_seasonal,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0044,E1,E1_w96_oracle,2026101903,96,1441,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0045,E1,E1_w96_imm,2026101904,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0046,E1,E1_w96_persist,2026101904,96,1441,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0047,E1,E1_w96_seasonal,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0048,E1,E1_w96_oracle,2026101904,96,1441,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0049,E1,E1_w96_imm,2026101905,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0050,E1,E1_w96_persist,2026101905,96,1441,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0051,E1,E1_w96_seasonal,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0052,E1,E1_w96_oracle,2026101905,96,1441,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0053,E1,E1_w96_imm,2026101906,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0054,E1,E1_w96_persist,2026101906,96,1441,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0055,E1,E1_w96_seasonal,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0056,E1,E1_w96_oracle,2026101906,96,1441,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0057,E1,E1_w96_imm,2026101907,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0058,E1,E1_w96_persist,2026101907,96,1441,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0059,E1,E1_w96_seasonal,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0060,E1,E1_w96_oracle,2026101907,96,1441,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0061,E1,E1_w96_imm,2026101908,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0062,E1,E1_w96_persist,2026101908,96,1441,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0063,E1,E1_w96_seasonal,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0064,E1,E1_w96_oracle,2026101908,96,1441,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0065,E1,E1_w192_imm,2026101901,192,1537,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0066,E1,E1_w192_persist,2026101901,192,1537,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0067,E1,E1_w192_seasonal,2026101901,192,1537,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0068,E1,E1_w192_oracle,2026101901,192,1537,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0069,E1,E1_w192_imm,2026101902,192,1537,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0070,E1,E1_w192_persist,2026101902,192,1537,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0071,E1,E1_w192_seasonal,2026101902,192,1537,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0072,E1,E1_w192_oracle,2026101902,192,1537,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0073,E1,E1_w192_imm,2026101903,192,1537,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0074,E1,E1_w192_persist,2026101903,192,1537,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0075,E1,E1_w192_seasonal,2026101903,192,1537,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0076,E1,E1_w192_oracle,2026101903,192,1537,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0077,E1,E1_w192_imm,2026101904,192,1537,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0078,E1,E1_w192_persist,2026101904,192,1537,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0079,E1,E1_w192_seasonal,2026101904,192,1537,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0080,E1,E1_w192_oracle,2026101904,192,1537,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0081,E1,E1_w192_imm,2026101905,192,1537,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0082,E1,E1_w192_persist,2026101905,192,1537,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0083,E1,E1_w192_seasonal,2026101905,192,1537,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0084,E1,E1_w192_oracle,2026101905,192,1537,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0085,E1,E1_w192_imm,2026101906,192,1537,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0086,E1,E1_w192_persist,2026101906,192,1537,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0087,E1,E1_w192_seasonal,2026101906,192,1537,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0088,E1,E1_w192_oracle,2026101906,192,1537,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0089,E1,E1_w192_imm,2026101907,192,1537,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0090,E1,E1_w192_persist,2026101907,192,1537,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0091,E1,E1_w192_seasonal,2026101907,192,1537,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0092,E1,E1_w192_oracle,2026101907,192,1537,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0093,E1,E1_w192_imm,2026101908,192,1537,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0094,E1,E1_w192_persist,2026101908,192,1537,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0095,E1,E1_w192_seasonal,2026101908,192,1537,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0096,E1,E1_w192_oracle,2026101908,192,1537,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0097,E1,E1_w288_imm,2026101901,288,1633,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0098,E1,E1_w288_persist,2026101901,288,1633,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0099,E1,E1_w288_seasonal,2026101901,288,1633,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0100,E1,E1_w288_oracle,2026101901,288,1633,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0101,E1,E1_w288_imm,2026101902,288,1633,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0102,E1,E1_w288_persist,2026101902,288,1633,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0103,E1,E1_w288_seasonal,2026101902,288,1633,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0104,E1,E1_w288_oracle,2026101902,288,1633,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0105,E1,E1_w288_imm,2026101903,288,1633,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0106,E1,E1_w288_persist,2026101903,288,1633,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0107,E1,E1_w288_seasonal,2026101903,288,1633,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0108,E1,E1_w288_oracle,2026101903,288,1633,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0109,E1,E1_w288_imm,2026101904,288,1633,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0110,E1,E1_w288_persist,2026101904,288,1633,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0111,E1,E1_w288_seasonal,2026101904,288,1633,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0112,E1,E1_w288_oracle,2026101904,288,1633,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0113,E1,E1_w288_imm,2026101905,288,1633,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0114,E1,E1_w288_persist,2026101905,288,1633,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0115,E1,E1_w288_seasonal,2026101905,288,1633,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0116,E1,E1_w288_oracle,2026101905,288,1633,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0117,E1,E1_w288_imm,2026101906,288,1633,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0118,E1,E1_w288_persist,2026101906,288,1633,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0119,E1,E1_w288_seasonal,2026101906,288,1633,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0120,E1,E1_w288_oracle,2026101906,288,1633,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0121,E1,E1_w288_imm,2026101907,288,1633,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0122,E1,E1_w288_persist,2026101907,288,1633,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0123,E1,E1_w288_seasonal,2026101907,288,1633,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0124,E1,E1_w288_oracle,2026101907,288,1633,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0125,E1,E1_w288_imm,2026101908,288,1633,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,7200,1800,10,3600,,0,0,0,1,immediate baseline edf_immediate; forecast not consumed
+R0126,E1,E1_w288_persist,2026101908,288,1633,adaptive_gain,true,persistence,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal persistence
+R0127,E1,E1_w288_seasonal,2026101908,288,1633,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,causal previous-day
+R0128,E1,E1_w288_oracle,2026101908,288,1633,adaptive_gain,true,oracle,0.1,4,scaled,1.5,,7200,1800,10,3600,full,0,0,0,1,IDEAL_INFORMATION reference (forbidden deployment)
+R0129,E2A,E2A_l0.1_C1_TBD_tight,2026101901,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0130,E2A,E2A_l0.1_C1_TBD_tight,2026101902,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0131,E2A,E2A_l0.1_C1_TBD_tight,2026101903,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0132,E2A,E2A_l0.1_C1_TBD_tight,2026101904,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0133,E2A,E2A_l0.1_C1_TBD_tight,2026101905,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0134,E2A,E2A_l0.1_C1_TBD_tight,2026101906,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0135,E2A,E2A_l0.1_C1_TBD_tight,2026101907,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0136,E2A,E2A_l0.1_C1_TBD_tight,2026101908,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0137,E2A,E2A_l0.1_C1_TBD_high,2026101901,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0138,E2A,E2A_l0.1_C1_TBD_high,2026101902,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0139,E2A,E2A_l0.1_C1_TBD_high,2026101903,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0140,E2A,E2A_l0.1_C1_TBD_high,2026101904,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0141,E2A,E2A_l0.1_C1_TBD_high,2026101905,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0142,E2A,E2A_l0.1_C1_TBD_high,2026101906,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0143,E2A,E2A_l0.1_C1_TBD_high,2026101907,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0144,E2A,E2A_l0.1_C1_TBD_high,2026101908,96,1441,adaptive_gain,false,n/a(unused),0.1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0145,E2A,E2A_l0.1_C4_TBD_tight,2026101901,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0146,E2A,E2A_l0.1_C4_TBD_tight,2026101902,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0147,E2A,E2A_l0.1_C4_TBD_tight,2026101903,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0148,E2A,E2A_l0.1_C4_TBD_tight,2026101904,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0149,E2A,E2A_l0.1_C4_TBD_tight,2026101905,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0150,E2A,E2A_l0.1_C4_TBD_tight,2026101906,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0151,E2A,E2A_l0.1_C4_TBD_tight,2026101907,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0152,E2A,E2A_l0.1_C4_TBD_tight,2026101908,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0153,E2A,E2A_l0.1_C4_TBD_high,2026101901,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0154,E2A,E2A_l0.1_C4_TBD_high,2026101902,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0155,E2A,E2A_l0.1_C4_TBD_high,2026101903,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0156,E2A,E2A_l0.1_C4_TBD_high,2026101904,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0157,E2A,E2A_l0.1_C4_TBD_high,2026101905,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0158,E2A,E2A_l0.1_C4_TBD_high,2026101906,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0159,E2A,E2A_l0.1_C4_TBD_high,2026101907,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0160,E2A,E2A_l0.1_C4_TBD_high,2026101908,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0161,E2A,E2A_l1_C1_TBD_tight,2026101901,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0162,E2A,E2A_l1_C1_TBD_tight,2026101902,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0163,E2A,E2A_l1_C1_TBD_tight,2026101903,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0164,E2A,E2A_l1_C1_TBD_tight,2026101904,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0165,E2A,E2A_l1_C1_TBD_tight,2026101905,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0166,E2A,E2A_l1_C1_TBD_tight,2026101906,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0167,E2A,E2A_l1_C1_TBD_tight,2026101907,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0168,E2A,E2A_l1_C1_TBD_tight,2026101908,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0169,E2A,E2A_l1_C1_TBD_high,2026101901,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0170,E2A,E2A_l1_C1_TBD_high,2026101902,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0171,E2A,E2A_l1_C1_TBD_high,2026101903,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0172,E2A,E2A_l1_C1_TBD_high,2026101904,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0173,E2A,E2A_l1_C1_TBD_high,2026101905,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0174,E2A,E2A_l1_C1_TBD_high,2026101906,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0175,E2A,E2A_l1_C1_TBD_high,2026101907,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0176,E2A,E2A_l1_C1_TBD_high,2026101908,96,1441,adaptive_gain,false,n/a(unused),1,1,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0177,E2A,E2A_l1_C4_TBD_tight,2026101901,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0178,E2A,E2A_l1_C4_TBD_tight,2026101902,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0179,E2A,E2A_l1_C4_TBD_tight,2026101903,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0180,E2A,E2A_l1_C4_TBD_tight,2026101904,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0181,E2A,E2A_l1_C4_TBD_tight,2026101905,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0182,E2A,E2A_l1_C4_TBD_tight,2026101906,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0183,E2A,E2A_l1_C4_TBD_tight,2026101907,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0184,E2A,E2A_l1_C4_TBD_tight,2026101908,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_tight,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0185,E2A,E2A_l1_C4_TBD_high,2026101901,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0186,E2A,E2A_l1_C4_TBD_high,2026101902,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0187,E2A,E2A_l1_C4_TBD_high,2026101903,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0188,E2A,E2A_l1_C4_TBD_high,2026101904,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0189,E2A,E2A_l1_C4_TBD_high,2026101905,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0190,E2A,E2A_l1_C4_TBD_high,2026101906,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0191,E2A,E2A_l1_C4_TBD_high,2026101907,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0192,E2A,E2A_l1_C4_TBD_high,2026101908,96,1441,adaptive_gain,false,n/a(unused),1,4,fixed_abs,,TBD_high,900,300,10,3600,,0,0,0,1,"budget dev-calibrated: B_tight=0.5*C_full, B_high=1.2*C_full (NOT 1.5*N exhaustion point)"
+R0193,E2B,E2B_d1_scaled,2026101901,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,1,"Bernoulli(0.5) thinning -> Poisson(lambda); N1 random per seed; also serves as (d1,fixed)"
+R0194,E2B,E2B_d2_scaled,2026101901,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,2,Poisson(2lambda); budget scales with N (1.5*N2)
+R0195,E2B,E2B_d2_fixed,2026101901,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,1.5*N1(seed),900,300,10,3600,,0,0,0,2,same absolute budget as d1_scaled (B=1.5*N1(seed)); N1 randomness recorded
+R0196,E2B,E2B_d1_scaled,2026101902,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,1,"Bernoulli(0.5) thinning -> Poisson(lambda); N1 random per seed; also serves as (d1,fixed)"
+R0197,E2B,E2B_d2_scaled,2026101902,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,2,Poisson(2lambda); budget scales with N (1.5*N2)
+R0198,E2B,E2B_d2_fixed,2026101902,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,1.5*N1(seed),900,300,10,3600,,0,0,0,2,same absolute budget as d1_scaled (B=1.5*N1(seed)); N1 randomness recorded
+R0199,E2B,E2B_d1_scaled,2026101903,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,1,"Bernoulli(0.5) thinning -> Poisson(lambda); N1 random per seed; also serves as (d1,fixed)"
+R0200,E2B,E2B_d2_scaled,2026101903,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,2,Poisson(2lambda); budget scales with N (1.5*N2)
+R0201,E2B,E2B_d2_fixed,2026101903,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,1.5*N1(seed),900,300,10,3600,,0,0,0,2,same absolute budget as d1_scaled (B=1.5*N1(seed)); N1 randomness recorded
+R0202,E2B,E2B_d1_scaled,2026101904,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,1,"Bernoulli(0.5) thinning -> Poisson(lambda); N1 random per seed; also serves as (d1,fixed)"
+R0203,E2B,E2B_d2_scaled,2026101904,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,2,Poisson(2lambda); budget scales with N (1.5*N2)
+R0204,E2B,E2B_d2_fixed,2026101904,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,1.5*N1(seed),900,300,10,3600,,0,0,0,2,same absolute budget as d1_scaled (B=1.5*N1(seed)); N1 randomness recorded
+R0205,E2B,E2B_d1_scaled,2026101905,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,1,"Bernoulli(0.5) thinning -> Poisson(lambda); N1 random per seed; also serves as (d1,fixed)"
+R0206,E2B,E2B_d2_scaled,2026101905,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,2,Poisson(2lambda); budget scales with N (1.5*N2)
+R0207,E2B,E2B_d2_fixed,2026101905,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,1.5*N1(seed),900,300,10,3600,,0,0,0,2,same absolute budget as d1_scaled (B=1.5*N1(seed)); N1 randomness recorded
+R0208,E2B,E2B_d1_scaled,2026101906,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,1,"Bernoulli(0.5) thinning -> Poisson(lambda); N1 random per seed; also serves as (d1,fixed)"
+R0209,E2B,E2B_d2_scaled,2026101906,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,2,Poisson(2lambda); budget scales with N (1.5*N2)
+R0210,E2B,E2B_d2_fixed,2026101906,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,1.5*N1(seed),900,300,10,3600,,0,0,0,2,same absolute budget as d1_scaled (B=1.5*N1(seed)); N1 randomness recorded
+R0211,E2B,E2B_d1_scaled,2026101907,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,1,"Bernoulli(0.5) thinning -> Poisson(lambda); N1 random per seed; also serves as (d1,fixed)"
+R0212,E2B,E2B_d2_scaled,2026101907,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,2,Poisson(2lambda); budget scales with N (1.5*N2)
+R0213,E2B,E2B_d2_fixed,2026101907,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,1.5*N1(seed),900,300,10,3600,,0,0,0,2,same absolute budget as d1_scaled (B=1.5*N1(seed)); N1 randomness recorded
+R0214,E2B,E2B_d1_scaled,2026101908,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,1,"Bernoulli(0.5) thinning -> Poisson(lambda); N1 random per seed; also serves as (d1,fixed)"
+R0215,E2B,E2B_d2_scaled,2026101908,96,1441,adaptive_gain,false,n/a(unused),0.1,4,scaled,1.5,,900,300,10,3600,,0,0,0,2,Poisson(2lambda); budget scales with N (1.5*N2)
+R0216,E2B,E2B_d2_fixed,2026101908,96,1441,adaptive_gain,false,n/a(unused),0.1,4,fixed_abs,,1.5*N1(seed),900,300,10,3600,,0,0,0,2,same absolute budget as d1_scaled (B=1.5*N1(seed)); N1 randomness recorded
+R0217,E3,E3_W0,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,0,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0218,E3,E3_W0,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,0,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0219,E3,E3_W0,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,0,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0220,E3,E3_W0,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,0,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0221,E3,E3_W0,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,0,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0222,E3,E3_W0,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,0,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0223,E3,E3_W0,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,0,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0224,E3,E3_W0,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,0,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0225,E3,E3_W300,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,300,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0226,E3,E3_W300,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,300,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0227,E3,E3_W300,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,300,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0228,E3,E3_W300,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,300,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0229,E3,E3_W300,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,300,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0230,E3,E3_W300,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,300,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0231,E3,E3_W300,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,300,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0232,E3,E3_W300,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,300,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0233,E3,E3_W900,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,900,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0234,E3,E3_W900,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,900,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0235,E3,E3_W900,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,900,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0236,E3,E3_W900,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,900,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0237,E3,E3_W900,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,900,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0238,E3,E3_W900,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,900,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0239,E3,E3_W900,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,900,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0240,E3,E3_W900,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,900,0,0,0,1,wait upper-limit sweep; d unchanged (a+1800)
+R0241,E3,E3_W1800,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,0,1,baseline (shared across E3 axes)
+R0242,E3,E3_W1800,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,0,1,baseline (shared across E3 axes)
+R0243,E3,E3_W1800,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,0,1,baseline (shared across E3 axes)
+R0244,E3,E3_W1800,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,0,1,baseline (shared across E3 axes)
+R0245,E3,E3_W1800,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,0,1,baseline (shared across E3 axes)
+R0246,E3,E3_W1800,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,0,1,baseline (shared across E3 axes)
+R0247,E3,E3_W1800,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,0,1,baseline (shared across E3 axes)
+R0248,E3,E3_W1800,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,0,1,baseline (shared across E3 axes)
+R0249,E3,E3_R0.02,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.02,0,0,1,routing resource overhead sweep (tau_route=0)
+R0250,E3,E3_R0.02,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.02,0,0,1,routing resource overhead sweep (tau_route=0)
+R0251,E3,E3_R0.02,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.02,0,0,1,routing resource overhead sweep (tau_route=0)
+R0252,E3,E3_R0.02,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.02,0,0,1,routing resource overhead sweep (tau_route=0)
+R0253,E3,E3_R0.02,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.02,0,0,1,routing resource overhead sweep (tau_route=0)
+R0254,E3,E3_R0.02,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.02,0,0,1,routing resource overhead sweep (tau_route=0)
+R0255,E3,E3_R0.02,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.02,0,0,1,routing resource overhead sweep (tau_route=0)
+R0256,E3,E3_R0.02,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.02,0,0,1,routing resource overhead sweep (tau_route=0)
+R0257,E3,E3_R0.1,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.1,0,0,1,routing resource overhead sweep (tau_route=0)
+R0258,E3,E3_R0.1,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.1,0,0,1,routing resource overhead sweep (tau_route=0)
+R0259,E3,E3_R0.1,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.1,0,0,1,routing resource overhead sweep (tau_route=0)
+R0260,E3,E3_R0.1,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.1,0,0,1,routing resource overhead sweep (tau_route=0)
+R0261,E3,E3_R0.1,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.1,0,0,1,routing resource overhead sweep (tau_route=0)
+R0262,E3,E3_R0.1,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.1,0,0,1,routing resource overhead sweep (tau_route=0)
+R0263,E3,E3_R0.1,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.1,0,0,1,routing resource overhead sweep (tau_route=0)
+R0264,E3,E3_R0.1,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.1,0,0,1,routing resource overhead sweep (tau_route=0)
+R0265,E3,E3_R0.5,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.5,0,0,1,routing resource overhead sweep (tau_route=0)
+R0266,E3,E3_R0.5,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.5,0,0,1,routing resource overhead sweep (tau_route=0)
+R0267,E3,E3_R0.5,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.5,0,0,1,routing resource overhead sweep (tau_route=0)
+R0268,E3,E3_R0.5,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.5,0,0,1,routing resource overhead sweep (tau_route=0)
+R0269,E3,E3_R0.5,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.5,0,0,1,routing resource overhead sweep (tau_route=0)
+R0270,E3,E3_R0.5,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.5,0,0,1,routing resource overhead sweep (tau_route=0)
+R0271,E3,E3_R0.5,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.5,0,0,1,routing resource overhead sweep (tau_route=0)
+R0272,E3,E3_R0.5,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0.5,0,0,1,routing resource overhead sweep (tau_route=0)
+R0273,E3,E3_B-40,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,-40,0,1,causal predictor + known bias (gCO2/kWh)
+R0274,E3,E3_B-40,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,-40,0,1,causal predictor + known bias (gCO2/kWh)
+R0275,E3,E3_B-40,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,-40,0,1,causal predictor + known bias (gCO2/kWh)
+R0276,E3,E3_B-40,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,-40,0,1,causal predictor + known bias (gCO2/kWh)
+R0277,E3,E3_B-40,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,-40,0,1,causal predictor + known bias (gCO2/kWh)
+R0278,E3,E3_B-40,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,-40,0,1,causal predictor + known bias (gCO2/kWh)
+R0279,E3,E3_B-40,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,-40,0,1,causal predictor + known bias (gCO2/kWh)
+R0280,E3,E3_B-40,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,-40,0,1,causal predictor + known bias (gCO2/kWh)
+R0281,E3,E3_B40,2026101901,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,40,0,1,causal predictor + known bias (gCO2/kWh)
+R0282,E3,E3_B40,2026101902,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,40,0,1,causal predictor + known bias (gCO2/kWh)
+R0283,E3,E3_B40,2026101903,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,40,0,1,causal predictor + known bias (gCO2/kWh)
+R0284,E3,E3_B40,2026101904,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,40,0,1,causal predictor + known bias (gCO2/kWh)
+R0285,E3,E3_B40,2026101905,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,40,0,1,causal predictor + known bias (gCO2/kWh)
+R0286,E3,E3_B40,2026101906,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,40,0,1,causal predictor + known bias (gCO2/kWh)
+R0287,E3,E3_B40,2026101907,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,40,0,1,causal predictor + known bias (gCO2/kWh)
+R0288,E3,E3_B40,2026101908,96,1441,adaptive_gain,true,seasonal,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,40,0,1,causal predictor + known bias (gCO2/kWh)
+R0289,E3,E3_N10,2026101901,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,10,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0290,E3,E3_N10,2026101902,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,10,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0291,E3,E3_N10,2026101903,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,10,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0292,E3,E3_N10,2026101904,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,10,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0293,E3,E3_N10,2026101905,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,10,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0294,E3,E3_N10,2026101906,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,10,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0295,E3,E3_N10,2026101907,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,10,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0296,E3,E3_N10,2026101908,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,10,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0297,E3,E3_N40,2026101901,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,40,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0298,E3,E3_N40,2026101902,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,40,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0299,E3,E3_N40,2026101903,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,40,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0300,E3,E3_N40,2026101904,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,40,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0301,E3,E3_N40,2026101905,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,40,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0302,E3,E3_N40,2026101906,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,40,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0303,E3,E3_N40,2026101907,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,40,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)
+R0304,E3,E3_N40,2026101908,96,1441,adaptive_gain,true,oracle_noise,0.1,4,scaled,1.5,,7200,1800,10,3600,1800,0,0,40,1,IDEAL + controlled noise (sigma=0 point reused from E1 oracle w96)

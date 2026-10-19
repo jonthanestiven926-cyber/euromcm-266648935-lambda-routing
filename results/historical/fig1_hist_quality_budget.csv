@@ -1,0 +1,19 @@
+series,budget_fraction_target,strong_usage_fraction_kN,accuracy_correct_per_question,evidence_class,source_file
+all_light,0.25,0.251282051282051,0.148717948717949,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.25_per_question.csv (aggregated; raw labels not read); N=195
+all_light,0.5,0.502564102564103,0.148717948717949,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.50_per_question.csv (aggregated; raw labels not read); N=195
+all_light,0.75,0.748717948717949,0.148717948717949,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.75_per_question.csv (aggregated; raw labels not read); N=195
+all_strong,0.25,0.251282051282051,0.276923076923077,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.25_per_question.csv (aggregated; raw labels not read); N=195
+all_strong,0.5,0.502564102564103,0.276923076923077,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.50_per_question.csv (aggregated; raw labels not read); N=195
+all_strong,0.75,0.748717948717949,0.276923076923077,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.75_per_question.csv (aggregated; raw labels not read); N=195
+learned,0.25,0.251282051282051,0.169230769230769,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.25_per_question.csv (aggregated; raw labels not read); N=195
+learned,0.5,0.502564102564103,0.21025641025641,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.50_per_question.csv (aggregated; raw labels not read); N=195
+learned,0.75,0.748717948717949,0.230769230769231,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.75_per_question.csv (aggregated; raw labels not read); N=195
+static,0.25,0.251282051282051,0.18974358974359,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.25_per_question.csv (aggregated; raw labels not read); N=195
+static,0.5,0.502564102564103,0.215384615384615,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.50_per_question.csv (aggregated; raw labels not read); N=195
+static,0.75,0.748717948717949,0.261538461538462,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.75_per_question.csv (aggregated; raw labels not read); N=195
+random100,0.25,0.251282051282051,0.18025641025641,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.25_per_question.csv (aggregated; raw labels not read); N=195
+random100,0.5,0.502564102564103,0.212769230769231,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.50_per_question.csv (aggregated; raw labels not read); N=195
+random100,0.75,0.748717948717949,0.242974358974359,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.75_per_question.csv (aggregated; raw labels not read); N=195
+analytic,0.25,0.251282051282051,0.180933596318212,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.25_per_question.csv (aggregated; raw labels not read); N=195
+analytic,0.5,0.502564102564103,0.213149243918475,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.50_per_question.csv (aggregated; raw labels not read); N=195
+analytic,0.75,0.748717948717949,0.244707429322814,HISTORICAL_FORMAL_P2F_EXPORTED_AGGREGATE,REAL_budget_0.75_per_question.csv (aggregated; raw labels not read); N=195
